@@ -41,7 +41,12 @@
   font-weight: 600;
   font-style: normal;
   font-family: "Playfair Display", serif;
-  background-color: #9e8a80;
+}
+
+body {
+  color: var(--first-color);
+  background: var(--fourth-color);
+  margin: 2rem 0 0 0;
 }
 
 /*=======Common styles for all sections=======*/
@@ -96,6 +101,12 @@ header {
 /*.home {
 }*/
 
-.home-container h1 {
-  align-items: center;
+.banner-container .banner-img {
+  position: relative;
+}
+.section-title-01 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #fefefe;
 }
